@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0840231E4447BD00FBDF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0840221E4447BD00FBDF50 /* AppDelegate.swift */; };
+		BA0840251E4447BD00FBDF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0840241E4447BD00FBDF50 /* ViewController.swift */; };
+		BA0840281E4447BD00FBDF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0840261E4447BD00FBDF50 /* Main.storyboard */; };
+		BA08402A1E4447BD00FBDF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0840291E4447BD00FBDF50 /* Assets.xcassets */; };
+		BA08402D1E4447BD00FBDF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA08402B1E4447BD00FBDF50 /* LaunchScreen.storyboard */; };
+		BA0840381E4447BD00FBDF50 /* TimePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0840371E4447BD00FBDF50 /* TimePickerTests.swift */; };
+		BA0840431E4447BD00FBDF50 /* TimePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0840421E4447BD00FBDF50 /* TimePickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA0840341E4447BD00FBDF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0840171E4447BC00FBDF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA08401E1E4447BC00FBDF50;
+			remoteInfo = TimePicker;
+		};
+		BA08403F1E4447BD00FBDF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0840171E4447BC00FBDF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA08401E1E4447BC00FBDF50;
+			remoteInfo = TimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA08401F1E4447BD00FBDF50 /* TimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0840221E4447BD00FBDF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA0840241E4447BD00FBDF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA0840271E4447BD00FBDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA0840291E4447BD00FBDF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA08402C1E4447BD00FBDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA08402E1E4447BD00FBDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0840331E4447BD00FBDF50 /* TimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0840371E4447BD00FBDF50 /* TimePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerTests.swift; sourceTree = "<group>"; };
+		BA0840391E4447BD00FBDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA08403E1E4447BD00FBDF50 /* TimePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0840421E4447BD00FBDF50 /* TimePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerUITests.swift; sourceTree = "<group>"; };
+		BA0840441E4447BD00FBDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA08401C1E4447BC00FBDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0840301E4447BD00FBDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08403B1E4447BD00FBDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0840161E4447BC00FBDF50 = {
+			isa = PBXGroup;
+			children = (
+				BA0840211E4447BD00FBDF50 /* TimePicker */,
+				BA0840361E4447BD00FBDF50 /* TimePickerTests */,
+				BA0840411E4447BD00FBDF50 /* TimePickerUITests */,
+				BA0840201E4447BD00FBDF50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0840201E4447BD00FBDF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA08401F1E4447BD00FBDF50 /* TimePicker.app */,
+				BA0840331E4447BD00FBDF50 /* TimePickerTests.xctest */,
+				BA08403E1E4447BD00FBDF50 /* TimePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0840211E4447BD00FBDF50 /* TimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BA0840221E4447BD00FBDF50 /* AppDelegate.swift */,
+				BA0840241E4447BD00FBDF50 /* ViewController.swift */,
+				BA0840261E4447BD00FBDF50 /* Main.storyboard */,
+				BA0840291E4447BD00FBDF50 /* Assets.xcassets */,
+				BA08402B1E4447BD00FBDF50 /* LaunchScreen.storyboard */,
+				BA08402E1E4447BD00FBDF50 /* Info.plist */,
+			);
+			path = TimePicker;
+			sourceTree = "<group>";
+		};
+		BA0840361E4447BD00FBDF50 /* TimePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0840371E4447BD00FBDF50 /* TimePickerTests.swift */,
+				BA0840391E4447BD00FBDF50 /* Info.plist */,
+			);
+			path = TimePickerTests;
+			sourceTree = "<group>";
+		};
+		BA0840411E4447BD00FBDF50 /* TimePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0840421E4447BD00FBDF50 /* TimePickerUITests.swift */,
+				BA0840441E4447BD00FBDF50 /* Info.plist */,
+			);
+			path = TimePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA08401E1E4447BC00FBDF50 /* TimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0840471E4447BD00FBDF50 /* Build configuration list for PBXNativeTarget "TimePicker" */;
+			buildPhases = (
+				BA08401B1E4447BC00FBDF50 /* Sources */,
+				BA08401C1E4447BC00FBDF50 /* Frameworks */,
+				BA08401D1E4447BC00FBDF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimePicker;
+			productName = TimePicker;
+			productReference = BA08401F1E4447BD00FBDF50 /* TimePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA0840321E4447BD00FBDF50 /* TimePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA08404A1E4447BD00FBDF50 /* Build configuration list for PBXNativeTarget "TimePickerTests" */;
+			buildPhases = (
+				BA08402F1E4447BD00FBDF50 /* Sources */,
+				BA0840301E4447BD00FBDF50 /* Frameworks */,
+				BA0840311E4447BD00FBDF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0840351E4447BD00FBDF50 /* PBXTargetDependency */,
+			);
+			name = TimePickerTests;
+			productName = TimePickerTests;
+			productReference = BA0840331E4447BD00FBDF50 /* TimePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA08403D1E4447BD00FBDF50 /* TimePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA08404D1E4447BD00FBDF50 /* Build configuration list for PBXNativeTarget "TimePickerUITests" */;
+			buildPhases = (
+				BA08403A1E4447BD00FBDF50 /* Sources */,
+				BA08403B1E4447BD00FBDF50 /* Frameworks */,
+				BA08403C1E4447BD00FBDF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0840401E4447BD00FBDF50 /* PBXTargetDependency */,
+			);
+			name = TimePickerUITests;
+			productName = TimePickerUITests;
+			productReference = BA08403E1E4447BD00FBDF50 /* TimePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0840171E4447BC00FBDF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Vishwajeet;
+				TargetAttributes = {
+					BA08401E1E4447BC00FBDF50 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BA0840321E4447BD00FBDF50 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA08401E1E4447BC00FBDF50;
+					};
+					BA08403D1E4447BD00FBDF50 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA08401E1E4447BC00FBDF50;
+					};
+				};
+			};
+			buildConfigurationList = BA08401A1E4447BC00FBDF50 /* Build configuration list for PBXProject "TimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0840161E4447BC00FBDF50;
+			productRefGroup = BA0840201E4447BD00FBDF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA08401E1E4447BC00FBDF50 /* TimePicker */,
+				BA0840321E4447BD00FBDF50 /* TimePickerTests */,
+				BA08403D1E4447BD00FBDF50 /* TimePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA08401D1E4447BC00FBDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA08402D1E4447BD00FBDF50 /* LaunchScreen.storyboard in Resources */,
+				BA08402A1E4447BD00FBDF50 /* Assets.xcassets in Resources */,
+				BA0840281E4447BD00FBDF50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0840311E4447BD00FBDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08403C1E4447BD00FBDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA08401B1E4447BC00FBDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0840251E4447BD00FBDF50 /* ViewController.swift in Sources */,
+				BA0840231E4447BD00FBDF50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08402F1E4447BD00FBDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0840381E4447BD00FBDF50 /* TimePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08403A1E4447BD00FBDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0840431E4447BD00FBDF50 /* TimePickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA0840351E4447BD00FBDF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA08401E1E4447BC00FBDF50 /* TimePicker */;
+			targetProxy = BA0840341E4447BD00FBDF50 /* PBXContainerItemProxy */;
+		};
+		BA0840401E4447BD00FBDF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA08401E1E4447BC00FBDF50 /* TimePicker */;
+			targetProxy = BA08403F1E4447BD00FBDF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA0840261E4447BD00FBDF50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0840271E4447BD00FBDF50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA08402B1E4447BD00FBDF50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA08402C1E4447BD00FBDF50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0840451E4447BD00FBDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0840461E4447BD00FBDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0840481E4447BD00FBDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vishwajeet.TimePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA0840491E4447BD00FBDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vishwajeet.TimePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA08404B1E4447BD00FBDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vishwajeet.TimePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimePicker.app/TimePicker";
+			};
+			name = Debug;
+		};
+		BA08404C1E4447BD00FBDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vishwajeet.TimePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimePicker.app/TimePicker";
+			};
+			name = Release;
+		};
+		BA08404E1E4447BD00FBDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TimePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vishwajeet.TimePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimePicker;
+			};
+			name = Debug;
+		};
+		BA08404F1E4447BD00FBDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TimePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vishwajeet.TimePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA08401A1E4447BC00FBDF50 /* Build configuration list for PBXProject "TimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0840451E4447BD00FBDF50 /* Debug */,
+				BA0840461E4447BD00FBDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0840471E4447BD00FBDF50 /* Build configuration list for PBXNativeTarget "TimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0840481E4447BD00FBDF50 /* Debug */,
+				BA0840491E4447BD00FBDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA08404A1E4447BD00FBDF50 /* Build configuration list for PBXNativeTarget "TimePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08404B1E4447BD00FBDF50 /* Debug */,
+				BA08404C1E4447BD00FBDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA08404D1E4447BD00FBDF50 /* Build configuration list for PBXNativeTarget "TimePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA08404E1E4447BD00FBDF50 /* Debug */,
+				BA08404F1E4447BD00FBDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0840171E4447BC00FBDF50 /* Project object */;
+}

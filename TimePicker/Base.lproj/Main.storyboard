@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TimePicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKh-HS-5oB">
+                                <rect key="frame" x="27" y="225" width="320" height="216"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hour" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61J-Cm-1qR">
+                                <rect key="frame" x="24" y="449" width="160" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nul-5G-dIx">
+                                <rect key="frame" x="191" y="449" width="160" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="61J-Cm-1qR" firstAttribute="top" secondItem="uKh-HS-5oB" secondAttribute="bottom" constant="8" id="NCd-Yd-iAF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nul-5G-dIx" secondAttribute="trailing" constant="8" id="TbP-ya-Ha9"/>
+                            <constraint firstItem="61J-Cm-1qR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="YGB-16-BC5"/>
+                            <constraint firstItem="uKh-HS-5oB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZIJ-Ip-0hM"/>
+                            <constraint firstItem="nul-5G-dIx" firstAttribute="top" secondItem="uKh-HS-5oB" secondAttribute="bottom" constant="8" id="bmR-Vg-iiN"/>
+                            <constraint firstItem="uKh-HS-5oB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cvy-U7-YpX"/>
+                            <constraint firstItem="nul-5G-dIx" firstAttribute="leading" secondItem="61J-Cm-1qR" secondAttribute="trailing" constant="8" id="fne-yr-NEe"/>
+                            <constraint firstItem="nul-5G-dIx" firstAttribute="width" secondItem="61J-Cm-1qR" secondAttribute="width" id="ykf-bf-DFX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hour" destination="61J-Cm-1qR" id="zXO-3r-pSd"/>
+                        <outlet property="minute" destination="nul-5G-dIx" id="EvT-Gh-fEU"/>
+                        <outlet property="picker" destination="uKh-HS-5oB" id="cTw-Va-dRz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
